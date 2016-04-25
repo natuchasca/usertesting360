@@ -1,3 +1,4 @@
+/* --- HEADER --- */
 .azul {
 	color: #81b5fd;
 }
@@ -21,11 +22,18 @@ header {
 	width: 100%;
 }
 
+.logo-1 {
+	width: 200px;
+	height: auto;
+	padding-top: 10px;
+}
+
 header img {
 	width: 100%;
 	max-width: 1280px;
 	height: auto;
 }
+
 
 li {
 	list-style: none;
@@ -58,12 +66,7 @@ li:hover {
 	padding-right: -15px;
 }
 
-/* --- SEPARADOR --- */
 
-.separador {
-	text-align: center;
-	margin: 20px 0;
-}
 
 /* --- SERVICIOS --- */
 
@@ -80,3 +83,18 @@ li:hover {
 /* --- PRUEBA --- */
 
 /* --- FOOTER --- */
+footer {
+	background-color: #0c1e38;
+	color: white;
+	padding: 30px 0;
+}
+
+.espacio {
+	white-space: nowrap;
+}
+
+footer i {
+	font-size: 30px;
+	color: #81b5fd;
+	margin: 20px 0;
+}
