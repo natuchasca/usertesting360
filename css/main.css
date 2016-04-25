@@ -1,5 +1,69 @@
+.azul {
+	color: #81b5fd;
+}
+
 /* --- HEADER --- */
 
+header {
+	background-image: url(../image/large.jpg);
+	width: 100%;
+	min-height: 500px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: white;
+}
+
+.back-opacity {
+	background: rgba(73, 71, 83, 0.7);
+	height: 100%;
+	min-height: 500px;
+	width: 100%;
+}
+
+header img {
+	width: 100%;
+	max-width: 1280px;
+	height: auto;
+}
+
+li {
+	list-style: none;
+	float: left;
+	font-size: 20px;
+	padding: 0 20px;
+}
+
+li:hover {
+
+}
+
+.big {
+	font-size: 50px;
+	text-align: center;
+	margin: 100px 0;
+}
+
+.prueba {
+	background-color: rgba(0, 118, 236, 0.5);
+	width: 100%;
+	padding: 50px 0;
+	padding-left: 0px;
+	padding-right: 0px;
+	text-align: center;
+}
+
+.prueba.col-md-12 {
+	padding-left: -15px;
+	padding-right: -15px;
+}
+
+/* --- SEPARADOR --- */
+
+.separador {
+	text-align: center;
+	margin: 20px 0;
+}
 
 /* --- SERVICIOS --- */
 
