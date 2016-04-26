@@ -1,4 +1,3 @@
-/* --- HEADER --- */
 .azul {
 	color: #81b5fd;
 }
@@ -20,18 +19,14 @@ header {
 	height: 100%;
 	min-height: 500px;
 	width: 100%;
+	text-align: center;
+	margin: 0 auto;
 }
 
 .logo-1 {
 	width: 200px;
 	height: auto;
 	padding-top: 10px;
-}
-
-header img {
-	width: 100%;
-	max-width: 1280px;
-	height: auto;
 }
 
 
@@ -43,7 +38,8 @@ li {
 }
 
 li:hover {
-
+	color: #81b5fd;
+	cursor: pointer;
 }
 
 .big {
@@ -55,18 +51,37 @@ li:hover {
 .prueba {
 	background-color: rgba(0, 118, 236, 0.5);
 	width: 100%;
-	padding: 50px 0;
-	padding-left: 0px;
-	padding-right: 0px;
+	height: 120px;
 	text-align: center;
+	margin: 0 auto;
+	font-size: 18px;
+	padding-top: 20px;
 }
 
-.prueba.col-md-12 {
-	padding-left: -15px;
-	padding-right: -15px;
+.prueba-gratuita {
+	white-space: pre-line;
 }
 
+.prueba-gratuita1 {
+	font-size: 30px;
+}
 
+.pruebalo {
+	width: 150px;
+	height: 40px;
+	border: 1px solid white;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 5px;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+
+.pruebalo:hover {
+	color: #81b5fd;
+	background-color: white;
+	cursor: pointer;
+}
 
 /* --- SERVICIOS --- */
 
@@ -81,6 +96,18 @@ li:hover {
 
 
 /* --- PRUEBA --- */
+.pruebagratuita {
+	background-color: rgba(0, 118, 236, 0.5);
+	width: 100%;
+	height: 120px;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 18px;
+	padding-top: 23px;
+	color: white;
+}
+
+
 
 /* --- FOOTER --- */
 footer {
@@ -90,11 +117,22 @@ footer {
 }
 
 .espacio {
-	white-space: nowrap;
+	white-space: pre-line;
 }
 
-footer i {
+.iconredes {
 	font-size: 30px;
 	color: #81b5fd;
-	margin: 20px 0;
+	margin-left: 10px;
+
+}
+
+.iconredes:hover {
+	background-color: white;
+	border-radius: 30px;
+	cursor: pointer;
+}
+
+.copyright {
+	margin-top: 20px;
 }
