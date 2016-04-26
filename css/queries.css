@@ -1,7 +1,7 @@
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
-@media (min-width: 360px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px) {
 	li a {
 		display: none;
 	}
@@ -12,7 +12,7 @@
 	}
 
 	.big {
-		height: 50%;
+		font-size: 40px;
 	}
 
 	.pruebalo {

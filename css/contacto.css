@@ -70,11 +70,12 @@ button {
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
-@media (min-width: 360px) and (max-width: 767px) {
+@media (min-width: 310px) and (max-width: 767px) {
 	.formulario {
 		width: 70%;
 		padding-left: 5%;
 		padding-right: 5%;
+		height: 100%;
 	}
 
 	.formulario-raya {
@@ -89,11 +90,11 @@ button {
 		margin-top: 20px; 
 	}
 
-	a.report {
+	.powered {
 		text-align: center;
 	}
 
-	.powered {
+	.report {
 		text-align: center;
 	}
 }
@@ -111,15 +112,15 @@ button {
 	b {
 		font-size: 80%;
 	}
-	
-	.report {
-		text-align: left;
-	}
 
 	.powered {
 		text-align: center;
 	}
 
+	.report {
+		text-align: center;
+	}
+	
 	.credits {
 	margin-top: 20px; 
 	}
@@ -137,10 +138,6 @@ button {
 
 	b {
 		font-size: 80%;
-	}
-	
-	a.report {
-		text-align: center;
 	}
 
 	.powered {
