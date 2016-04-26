@@ -11,12 +11,21 @@
 
 
 /* --- POR QUE USAR --- */
-.grande{
-	width: 50%;
-	height: 20%;
+#blanco{
+	padding-top: 8%;
+	padding-bottom: 8%;
+}
+#computador{
+	padding-top: 3%;
+	
 }
 
-
+#logui{
+	width:100%;
+}
+#porqueusar{
+	padding-top: 3%;
+}
 
 
 /* --- PRUEBA --- */
