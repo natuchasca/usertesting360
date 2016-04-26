@@ -2,6 +2,38 @@
 
 
 /* --- SERVICIOS --- */
+.subtitulos{
+	font-family:sans-serif;
+	color: blue;
+	text-align: center;
+}
+.marcos i {
+	border-radius: 100px;
+	height: 150px;
+	width: 150px;
+	margin-left: 25%;
+	padding-top: 50%;
+	padding-left: 50%;
+}
+
+i{
+	font-size: 50px;
+	color: blue;
+	display: inline;
+	position: relative;
+}
+
+/*
+jumbotron:fondo gris
+thumbnail:borde gris
+carousel-control:sombra sobre imagenes
+carousel-indicators: cambio de puntero a manito;
+tooltip-inner: fondo negro;
+panel:sombre borde inferior
+
+
+*/
+
 
 
 /* --- EJEMPLO --- */
