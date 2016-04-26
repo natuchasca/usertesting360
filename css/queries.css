@@ -1,0 +1,44 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+@media (min-width: 360px) and (max-width: 767px) {
+	li a {
+		display: none;
+	}
+
+	.logo-1 {
+		width: 100%;
+		max-width: 360px;
+	}
+
+	.big {
+		height: 50%;
+	}
+
+	.pruebalo {
+		margin: 0 auto;
+	}
+
+	.icons-rights, .espacio {
+		text-align: center;
+	}
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+	li a {
+		font-size: 70%;
+	}
+
+	.logo-1 {
+		width: 50%;
+	}
+
+	.pruebalo {
+		margin: 0 auto;
+	}
+
+	.icons-rights, .espacio {
+		text-align: center;
+	}
+}

@@ -3,7 +3,7 @@
 .contacto {
 	background-image: url(../image/large.jpg);
 	width: 100%;
-	min-height: 500px;
+	min-height: 600px;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -11,9 +11,9 @@
 }
 
 .back-opacity-contacto {
-	background: rgba(73, 71, 83, 0.7);
+	background: rgba(43, 42, 43, 0.3);
 	height: 100%;
-	min-height: 500px;
+	min-height: 600px;
 	width: 100%;
 	text-align: center;
 	margin: 0 auto;
@@ -21,27 +21,133 @@
 
 .formulario {
 	width: 50%;
-	height: 300px;
+	height: 350px;
 	background-color: white;
 	border-top: 5px solid #81b5fd;
 	margin: 0 auto;
 	margin-top: 100px;
 	text-align: left;
+	padding: 20px 0;
+	padding-left: 50px;
+	padding-right: 50px;
 }
 
 .formulario-raya {
 	height: 2px;
-	width: 90%;
+	width: 160%;
 	color: silver;
 	background-color: silver;
+}
+
+.formulario h4 {
+	margin-left: 20px;
+}
+
+.formulario b {
+	margin-right: 20px;
+	margin-left: 20px;
 }
 
 .red {
 	color: red;
 }
 
+tr {
+	height: 40px;
+}
+
 button {
 	background-color: #81b5fd;
 	border: none;
 	border-radius: 5px;
+}
+
+.credits {
+	margin-top: 50px; 
+}
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+@media (min-width: 360px) and (max-width: 767px) {
+	.formulario {
+		width: 70%;
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	.formulario-raya {
+		width: 100%;
+	}
+
+	b {
+		font-size: 80%;
+	}
+	
+	.credits {
+		margin-top: 20px; 
+	}
+
+	a.report {
+		text-align: center;
+	}
+
+	.powered {
+		text-align: center;
+	}
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+	.formulario {
+		width: 70%;
+	}
+
+	.formulario-raya {
+		width: 100%;
+	}
+
+	b {
+		font-size: 80%;
+	}
+	
+	.report {
+		text-align: left;
+	}
+
+	.powered {
+		text-align: center;
+	}
+
+	.credits {
+	margin-top: 20px; 
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1200px) { 
+	.formulario {
+		width: 60%;
+	}
+
+	.formulario-raya {
+		width: 100%;
+	}
+
+	b {
+		font-size: 80%;
+	}
+	
+	a.report {
+		text-align: center;
+	}
+
+	.powered {
+		text-align: center;
+	}
+
+	.credits {
+	margin-top: 50px; 
+	}
 }
