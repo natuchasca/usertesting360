@@ -2,6 +2,10 @@
 	color: #81b5fd;
 }
 
+.azul-oscuro {
+	color: #0c1e38;
+}
+
 /* --- HEADER --- */
 
 header {
@@ -90,12 +94,135 @@ li a:hover {
 }
 
 /* --- SERVICIOS --- */
+.subtitulos{
+	font-family:sans-serif;
+	color:#81b5fd;
+	text-align: center;
+	margin-bottom: 100px;
+}
+.marcos i {
+	border-radius: 100px;
+	height: 250px;
+	width: 250px;
+	padding: 50px;
+	border:2px solid silver;
+	margin-bottom: 100px;
+}
+
+i{
+	font-size: 50px;
+	color: #81b5fd;
+}
+.marcos{
+	margin-bottom: 20px;
+}
+.marcos h3{
+	margin-top: 100px;
+}
+
+/* --- SEPARADOR --- */
+
+.separador {
+	text-align: center;
+}
+
+.imagen-hr {
+	position: relative;
+	margin-bottom: -70px;
+}
+
 
 
 /* --- EJEMPLO --- */
 
+.video{
+	width: 100%;
+}
+.ejemplo img{
+	width: 70%;
+	height: 20px;
+	margin:0 auto;
+}
+.ejemplo .sepa{
+	width: 100px;
+	height: 50px;
+	margin-left: 35%;
+}
+.ejem{
+	margin-bottom: 100px;
+	margin-top: 100px;
+}
 
 /* --- LO QUIERO --- */
+
+.imagen-fondo {
+	background-image: url(../image/sec-2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 450px;
+	text-align: left;
+	color: rgba(73, 71, 83, 0.7);
+	overflow: hidden;
+}
+
+.back-opacity2 {
+	background: rgba(43, 42, 43, 0.3);
+	height: 100%;
+	height: 450px;
+	width: 106%;
+	margin-left: -14px;
+}
+
+
+i.ic {
+	z-index: 1;
+	position: relative;
+	font-size: 30px;
+	background-color: #81b5fd;
+	padding: 10px;
+	border-radius: 100px;
+	text-align: center;
+	color: white;
+}
+
+.icon-tools {
+	top: 50px;
+}
+
+.icon-search {
+	top: 180px;
+}
+
+.marcogeneral{
+	position: absolute;
+	height: 100%;
+	margin-top: 50px;
+}
+
+
+li.item-loquiero {
+	float: none;
+	font-size: 14px;
+	list-style: disc;
+
+}
+
+.texto2 {
+	text-align: left;
+	margin-left: 30px;
+}
+
+/*
+jumbotron:fondo gris
+thumbnail:borde gris
+carousel-control:sombra sobre imagenes
+carousel-indicators: cambio de puntero a manito;
+tooltip-inner: fondo negro;
+panel:sombre borde inferior
+
+
+*/
+
 
 
 /* --- POR QUE USAR --- */
